@@ -104,6 +104,7 @@ export const Slider = ({
           {children}
         </SliderContent>
       </SliderContainer>
+
       {showPrevious && (
         <SliderButton
           $position={isHorizontal ? "left" : "top"}
